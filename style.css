@@ -15,7 +15,6 @@
 			x = y + 1;
 			document.getElementById("demo").innerHTML = "x is: " + x ;
 		}
-		}
 		catch(err) {
 			document.getElementById("demo").innerHTML = err.name;
 		}
